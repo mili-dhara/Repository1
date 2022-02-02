@@ -1,0 +1,53 @@
+<html>
+    <link rel="stylesheet" href="SurveyForm.css">
+    <title>Survey Form</title>
+    <h1 class="main">Welcome to my survey!</h1>
+    <h4 class="main">Thank you for taking out your time.</h4>
+    <img id="logo" src="/home/mili/Downloads/bg.png">
+    <body class="body">
+        <form>
+            <div class="field">
+                Name*: <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="field">
+                Email*: <input type="text" placeholder="Enter your email" required>
+            </div>
+            <div class="field">
+                Age*: <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="field">
+                Choose your current role:
+                <select id="dropdown"required>
+                    <option>Select your role</option>
+                    <option>Student</option>
+                    <option>Full Time Job</option>
+                    <option>Part Time Job</option>
+                    <option>Unemployed</option>
+                    <option>Prefer not to say</option><div>
+                </select>
+            </div>
+            <div class="field">
+                Which language do you prefer to a beginner?
+                <div><input type="radio" name="n" style="position: relative;">C++</div>
+                <div><input type="radio" name="n">Java</div>
+                <div><input type="radio" name="n">Python</div>
+                <div><input type="radio" name="n">Cannot say</div><div>
+            </div>
+            <div class="field">
+                Which platforms do you suggest for coding practice?
+                <div><input type="checkbox">LeetCode</div>
+                <div><input type="checkbox">Geeks For Geeks</div>
+                <div><input type="checkbox">HackerRank</div>
+                <div><input type="checkbox">CodeChef</div>
+                <div><input type="checkbox">Cannot say</div>
+            </div>
+            <div class="field">
+                Please share your coding journey here. (optional)
+                <div><textarea cols="50" rows="10" placeholder="Enter your text"></textarea></div>
+            </div>
+            <div class="field">
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>

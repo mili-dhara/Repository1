@@ -1,0 +1,29 @@
+.main {
+    text-align: center;
+    color: darkmagenta;
+    height: 30px;
+}
+#logo {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    height: 80px;
+    background-image: none;
+}
+.body {
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr-EdUHc-6KB3EKV06bqcsuFMFyrCpmv1apA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size:2000px;
+}
+.field{
+    padding: 10px;
+    margin-right: 20px;
+    color: brown;
+}
+input{
+    margin-left: 20px;;
+}
+.tmp {
+    margin-left: 100px;;
+}
